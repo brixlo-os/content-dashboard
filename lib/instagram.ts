@@ -1,6 +1,6 @@
 import { supabaseAdmin } from './supabase-admin'
 
-const BASE = 'https://graph.instagram.com/v21.0'
+const BASE = 'https://graph.facebook.com/v21.0'
 const TOKEN = process.env.INSTAGRAM_ACCESS_TOKEN!
 const IG_USER_ID = process.env.IG_USER_ID!
 
